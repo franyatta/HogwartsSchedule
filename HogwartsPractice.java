@@ -69,8 +69,7 @@ public class HogwartsPractice {
 		input.close();
 
 		// Use loop again to read data
-		int counter = 0;
-		while (inData.hasNext() && counter <= Integer.MAX_VALUE) {
+		while (inData.hasNext()) {
 			courseName = inData.next();
 			courseName = courseName.replace('_', ' ');
 			professorName = inData.next();
@@ -79,7 +78,6 @@ public class HogwartsPractice {
 			endTime = inData.next();
 			maxStudents = inData.nextInt();
 			currentStudents = inData.nextInt();
-			counter++;
 
 			// Check if input matches professor name
 			if (seeker.equals(professorName)) {
