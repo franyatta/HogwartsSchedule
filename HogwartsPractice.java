@@ -85,8 +85,6 @@ public class HogwartsPractice {
 				classTaught = courseName;
 				System.out.println("Professor " + seeker + " teaches "
 						+ classTaught + " class.");
-			} else {
-				System.err.print("Search doesn't exist");
 				break;
 		}
 		inData.close();
