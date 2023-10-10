@@ -1,0 +1,10 @@
+Potions Snape Monday 14:00 15:30 20 15
+Charms Flitwick Tuesday 09:00 10:30 25 20
+Defense_Against_the_Dark_Arts Lupin Wednesday 13:00 14:30 20 18
+Transfiguration McGonagall Thursday 11:00 12:30 18 18
+Herbology Sprout Monday 10:00 11:30 20 19
+Arithmancy Vector Tuesday 11:00 12:30 15 12
+Divination Trelawney Wednesday 16:00 17:30 12 12
+Astronomy Sinistra Thursday 20:00 21:30 22 20
+History_of_Magic Binns Friday 10:00 11:30 30 30
+Care_of_Magical_Creatures Hagrid Friday 13:00 14:30 15 13
