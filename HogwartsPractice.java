@@ -6,10 +6,22 @@ public class HogwartsPractice {
 
 	public static void main(String[] args) {
 		// Header
-		System.out.printf("%60s", "*********************\n");
-		System.out.printf("%60s", "* Hogwarts Schedule *\n");
-		System.out.printf("%60s", "*********************\n");
+		try {
+		    BufferedReader input = new BufferedReader(new FileReader(fileName1));
+		    String line;
 
+		    while ((line = input.readLine()) != null) { // Read the file line-by-line
+		        System.out.println(line);               // Print each line
+		    }
+
+		    input.close();                              // Close the BufferedReader
+		} catch (FileNotFoundException ex2) {
+		    ex2.printStackTrace();
+		    System.exit(1);
+		} catch (IOException ex3) {                     // Catch potential IOException
+		    ex3.printStackTrace();
+		    System.exit(1);
+		}
 		// Declare Variables
 		String fileName = "hogwarts_classes.txt";
 		Scanner inData = null;
